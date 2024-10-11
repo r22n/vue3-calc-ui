@@ -1,5 +1,5 @@
 <template>
-  <div class="keypad">
+  <div class="keypad w-100 h-100">
     <p class="text-end" style="grid-area:sta">{{ stack }}</p>
     <input class="form-control" type="text" readonly v-model="input" style="grid-area:inp">
     <button type="button" class="btn btn-secondary" style="grid-area:cls" @click="clear">C</button>
