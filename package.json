@@ -1,0 +1,44 @@
+{
+  "name": "vue3-calc-ui",
+  "version": "1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "expr-eval": "^2.0.2",
+    "vue": "^3.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.3",
+    "vue-tsc": "^2.1.6"
+  },
+  "description": "the simple laptop calculator for vue3",
+  "main": "./dist/VueCalcUI.umd.cjs",
+  "module": "./dist/VueCalcUI.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/VueCalcUI.esm.js",
+      "require": "./dist/VueCalcUI.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "calculator"
+  ],
+  "author": "r22n"
+}
