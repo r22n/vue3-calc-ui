@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="css">
 .keypad {
   display: grid;
   grid-template:
